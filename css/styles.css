@@ -14,12 +14,12 @@
   .contact{
     background-image: url('/home/hawk/Documents/delani/assets/backgrounds/c_image.jpg'); 
     }
-    h1{
+    h1,h2{
       text-align: center;
       text-transform: uppercase;
       font-weight:bold;
     }
-    h4{
+   /* h4{
       text-transform: uppercase;
       font-size: medium;
-    }
+    }*/
