@@ -9,4 +9,6 @@ body{
   header{
     background-image: url('/home/hawk/Documents/delani/assets/backgrounds/h_img.jpg');
   }
-  
+  .contact{
+    background-image: url('/home/hawk/Documents/delani/assets/backgrounds/c_image.jpg'); 
+    }
