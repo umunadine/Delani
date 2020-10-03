@@ -17,4 +17,9 @@
     h1{
       text-align: center;
       text-transform: uppercase;
+      font-weight:bold;
+    }
+    h4{
+      text-transform: uppercase;
+      font-size: medium;
     }
