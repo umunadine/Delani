@@ -14,3 +14,7 @@
   .contact{
     background-image: url('/home/hawk/Documents/delani/assets/backgrounds/c_image.jpg'); 
     }
+    h1{
+      text-align: center;
+      text-transform: uppercase;
+    }
