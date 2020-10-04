@@ -1,4 +1,6 @@
-p{
+body{
+  font-family: Montserrat,Verdana, Geneva, Tahoma, sans-serif;
+}p{
     text-align: center;
     line-height: 40px; 
   }
@@ -32,11 +34,12 @@ p{
   .services{
     background-image: url('/home/hawk/Documents/delani/assets/backgrounds/s_image.jpg');
     height:250px;
-    color:whitesmoke;
+    color:white;
     padding-top: 50px;
   }
   #contact{
     background-image: url('/home/hawk/Documents/delani/assets/backgrounds/c_image.jpg'); 
+    color: white;
     }
     h1{
       text-align: center;
@@ -55,10 +58,6 @@ p{
     h3{
       text-align: center;
     }
-  
-  /*  #username,#email{
-      padding-left:300px;
-    }*/
     #design,#development,#product{
       display:none;
       text-align: center;
@@ -69,7 +68,6 @@ p{
       text-transform: uppercase;
     }
     .portfolio{
-      /*float: left;*/
       display: inline-block;
       position: relative;
       flex-direction: row;
@@ -92,32 +90,36 @@ p{
     #username,#email,#message{
       background:rgba(255,255,255,0);
     }
-    #message{
-      padding: 100px;
-      padding-left: 2px;
-      width:600px;
-      height: 200px;
-      margin-left: 20%;
-    }
-    #username,#email{
-      padding-left: 2px;
-      width:300px;
+   #username,#email{
+      width:30%;
     }
     #username{
-      margin-left: 5%;
+      float: left;
+      margin-left: 150px;
     }
     #email{
-      float:right;
-      bottom:0px;
-     margin-top: -56px;
-     margin-right: 5%;
+      float: right;
+      margin-right: 150px;
     }
-    .form-control::-webkit-input-placeholder{
+    #message{
+      height: 236px;
+      margin-left: 290px;
+      border:1px solid whitesmoke;
+      color: white;
+      width: 50%;
+    }
+    input[type=text]{
+      color:whitesmoke;
+      background-color: transparent;
+      border:1px solid whitesmoke;
+    }
+   .form-control::-webkit-input-placeholder{
       color:white;
     }
-  input:placeholder-shown{
-    color:white;
-  }
+    ::placeholder{
+      color:white; 
+    }
+
   .btn{
     background-color: whitesmoke;
     margin-left:50%;
@@ -131,6 +133,9 @@ p{
     height:200px;
     width:250px;
     margin-left:50px;
+  }
+  .what{
+    margin-left: 100px;
   }
 
     
