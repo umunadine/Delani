@@ -11,7 +11,7 @@
   .services{
     background-image: url('/home/hawk/Documents/delani/assets/backgrounds/s_image.jpg');
   }
-  .contact{
+  #contact{
     background-image: url('/home/hawk/Documents/delani/assets/backgrounds/c_image.jpg'); 
     }
     h1,h2{
@@ -26,3 +26,74 @@
     h3{
       text-align: center;
     }
+    #username,#email{
+      padding-left:300px;
+    }
+    #design,#development,#product{
+      display:none;
+      text-align: center;
+    }
+  #design>h5,#development>h5,#product>h5{
+      font-size: medium;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .portfolio{
+      /*float: left;*/
+      display: inline-block;
+      position: relative;
+      flex-direction: row;
+      margin: 10px;
+      /*color: #333;*/
+    }
+    .portfolio .port-text {
+      display: none;
+      background:rgba(255,255,255,0.7);
+      left: 0px;
+      right:0px;
+      position: absolute;
+      top:0px;
+      bottom: 0px;
+      padding: 5px;
+      padding-top: 40%;
+      text-align: center;
+      font-weight: bolder;
+    }
+    #username,#email,#message{
+      background:rgba(255,255,255,0);
+    }
+    #message{
+      padding: 100px;
+      padding-left: 2px;
+      width:1000px;
+      margin-left: 10%;
+    }
+    #username,#email{
+      padding-left: 2px;
+      width:500px;
+    }
+    #email{
+      float:right;
+      bottom:0px;
+     margin-top: -54px;
+    }
+    .form-control::-webkit-input-placeholder{
+      color:white;
+    }
+  input:placeholder-shown{
+    color:white;
+  }
+  .btn{
+    background-color: whitesmoke;
+    margin-left:50%;
+    margin-bottom: 10px;
+  }
+    
+
+
+
+
+
+
+
+
