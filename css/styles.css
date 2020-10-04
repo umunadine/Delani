@@ -1,23 +1,52 @@
-/*body{
-    font-family: Arial, Helvetica, sans-serif;
-  }*/
-  p{
+p{
     text-align: center;
-    line-height: 30px; 
+    line-height: 40px; 
   }
   header{
     background-image: url('/home/hawk/Documents/delani/assets/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 667px;
+    color:whitesmoke;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 50px;
+  }
+  #mouse{
+    animation-name: mouse ;
+    animation-duration: 1s;
+    animation-iteration-count:4;
+    position: relative;
+  }
+  @keyframes mouse{
+    0% {
+      top: 0px;
+    }
+    50% { 
+      top: 50px;
+    }
+    100% { 
+      top: 0px;
+    }
   }
   .services{
     background-image: url('/home/hawk/Documents/delani/assets/backgrounds/s_image.jpg');
+    height:250px;
+    color:whitesmoke;
+    padding-top: 50px;
   }
   #contact{
     background-image: url('/home/hawk/Documents/delani/assets/backgrounds/c_image.jpg'); 
     }
-    h1,h2{
+    h1{
       text-align: center;
       text-transform: uppercase;
       font-weight:bold;
+    }
+    h2{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 50px;
     }
     h3,h4{
       text-transform: uppercase;
@@ -26,9 +55,10 @@
     h3{
       text-align: center;
     }
-    #username,#email{
+  
+  /*  #username,#email{
       padding-left:300px;
-    }
+    }*/
     #design,#development,#product{
       display:none;
       text-align: center;
@@ -44,7 +74,6 @@
       position: relative;
       flex-direction: row;
       margin: 10px;
-      /*color: #333;*/
     }
     .portfolio .port-text {
       display: none;
@@ -58,6 +87,7 @@
       padding-top: 40%;
       text-align: center;
       font-weight: bolder;
+      font-size: 50px;
     }
     #username,#email,#message{
       background:rgba(255,255,255,0);
@@ -65,17 +95,22 @@
     #message{
       padding: 100px;
       padding-left: 2px;
-      width:1000px;
-      margin-left: 10%;
+      width:600px;
+      height: 200px;
+      margin-left: 20%;
     }
     #username,#email{
       padding-left: 2px;
-      width:500px;
+      width:300px;
+    }
+    #username{
+      margin-left: 5%;
     }
     #email{
       float:right;
       bottom:0px;
-     margin-top: -54px;
+     margin-top: -56px;
+     margin-right: 5%;
     }
     .form-control::-webkit-input-placeholder{
       color:white;
@@ -88,6 +123,16 @@
     margin-left:50%;
     margin-bottom: 10px;
   }
+  footer{
+    padding:20px;
+    text-align: center;
+  }
+  .portfolio>img{
+    height:200px;
+    width:250px;
+    margin-left:50px;
+  }
+
     
 
 
