@@ -5,7 +5,7 @@ body{
     line-height: 40px; 
   }
   header{
-    background-image: url('https://raw.githubusercontent.com/umunadine/Delani/master/assets/backgrounds/h_img.jpg');
+    background-image: url("../assets/backgrounds/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 667px;
@@ -32,13 +32,13 @@ body{
     }
   }
   .services{
-    background-image: url('https://raw.githubusercontent.com/umunadine/Delani/master/assets/backgrounds/s_image.jpg');
+    background-image: url('../assets/backgrounds/s_image.jpg');
     height:250px;
     color:white;
     padding-top: 50px;
   }
   #contact{
-    background-image: url('https://raw.githubusercontent.com/umunadine/Delani/master/assets/backgrounds/c_image.jpg'); 
+    background-image: url('../assets/backgrounds/c_image.jpg'); 
     color: white;
     }
     h1{
