@@ -3,15 +3,26 @@ $(document).ready(function() {
       $("#first").toggle();
       $("#design").toggle();
   });
+  $("#design>p").click(function() {
+    $("#first").toggle();
+    $("#design").toggle();
+});
   $("#second>img").click(function() {
       $("#second").toggle();
       $("#development").toggle();
   });
+  $("#development >p").click(function() {
+    $("#second").toggle();
+    $("#development").toggle();
+});
   $("#third>img").click(function() {
       $("#third").toggle();
       $("#product").toggle();
   });
-
+  $("#product>p").click(function() {
+    $("#third").toggle();
+    $("#product").toggle();
+});
 });
 $(document).ready(function() {
   $('.portfolio').hover(function(){
